@@ -2,11 +2,11 @@
   "name": "soundboard",
   "version": "1.0.0",
   "description": "soundboard that just works",
-  "main": "./src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./src/",
-    "build" : "electron-packager ./ soundboard --platform=win32 --arch=x64"
+    "start": "electron src/",
+    "build" : "electron-packager . soundboard --platform=win32 --arch=x64 --overwrite"
   },
   "author": "valium",
   "license": "MIT",
