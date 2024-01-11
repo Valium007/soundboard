@@ -7,6 +7,9 @@ Windows 10 and above
 # Requirements 
 [Virtual Audio Cable](https://vb-audio.com/Cable/)
 
+# Building
+```npm install && npm start build```
+
 # Setup
 1. Download the Virtual Audio Cable driver and install it
 2. Open the soundboard and choose the primary and secondary audio sources, one should be your speaker or headset and other will be Virtual Cable Input
