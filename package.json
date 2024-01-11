@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron src/",
-    "build" : "electron-packager . soundboard --platform=win32 --arch=x64 --overwrite"
+    "build" : "electron-packager . soundboard --platform=win32 --arch=x64 --overwrite --out=dist/"
   },
-  "author": "valium",
+  "author": "valium007",
   "license": "MIT",
   "devDependencies": {
     "@electron/remote": "^2.1.1",
